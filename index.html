@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <h1 id="title">Customer Satisfaction Survey Form</h1>
-    <p id="description">Thank you for choosing our service. We value your feedback and we would like to know how we can improve your experience. Please take a few minutes to complete this survey and share your honest opinions with us. Your responses will be kept confidential and will only be used for research purposes. We appreciate your time and cooperation.</p>
-</body>
+    <p id="description">
+      Thank you for choosing our product/service. We value your feedback and we
+      would like to know how we can improve your experience. Please take a few
+      minutes to complete this survey and share your honest opinions with us.
+      Your responses will be kept confidential and will only be used for
+      research purposes. We appreciate your time and cooperation.
+    </p>
+    <form id="survey-form">
+      <label for="name" id="name-label">
+        What is your full name?
+        <input
+          id="name"
+          type="text"
+          required
+          name="name"
+          placeholder="Enter you name"
+      /></label>
+      <label for="email" id="email-label">
+        What is your preferred contact email?
+        <input
+          id="email"
+          type="email"
+          required
+          name="email"
+          placeholder="Enter your email"
+      /></label>
+      <label for="number" id="number-label">
+        How old are you?
+        <input
+          id="number"
+          type="number"
+          name="age"
+          placeholder="Enter your age"
+          min="18"
+          max="120"
+      /></label>
+      <label>
+        <select id="dropdown">
+          How frequently do you interact with our product/service?
+          <option disabled selected value="">Select an option</option>
+          <option value="daily">Daily</option>
+          <option value="weekly">Weekly</option>
+          <option value="monthly">Monthly</option>
+          <option value="occasionally">Occasionally</option>
+          <option value="never">Never</option>
+        </select>
+      </label>
+    </form>
+  </body>
 </html>
