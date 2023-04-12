@@ -29,7 +29,7 @@
             type="text"
             required
             name="name"
-            class="text-ques"
+            class="ques-input"
             placeholder="Enter you name" />
         </div>
 
@@ -41,7 +41,7 @@
             type="email"
             required
             name="email"
-            class="text-ques"
+            class="ques-input"
             placeholder="Enter your email" />
         </div>
 
@@ -51,7 +51,7 @@
             id="number"
             type="number"
             name="age"
-            class="text-ques"
+            class="ques-input"
             placeholder="Enter your age"
             min="18"
             max="120" />
@@ -59,7 +59,7 @@
 
         <div class="question">
           <p>How frequently do you interact with our product/service?</p>
-          <select id="dropdown" name="frequency">
+          <select id="dropdown" name="frequency" class="ques-input">
             <option disabled selected value="">Select an option</option>
             <option value="daily">Daily</option>
             <option value="weekly">Weekly</option>
@@ -105,7 +105,10 @@
 
         <div class="question">
           <p>Would you recommend our product/service to a friend?</p>
-          <select id="recommend-others" name="recommend-others">
+          <select
+            id="recommend-others"
+            name="recommend-others"
+            class="ques-input">
             <option disabled selected value="">Select an option</option>
             <option value="definitely">Definitely</option>
             <option value="maybe">Maybe</option>
