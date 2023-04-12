@@ -22,7 +22,7 @@ This project is a customer satisfaction survey form webpage built using HTML and
 To install this project, you need to have a web browser and a code editor. You also need to have git installed on your system. You can clone this repository by running the following command in your terminal:
 
 ```bash
-git clone https://github.com/your-username/customer-survey-form.git
+git clone https://github.com/amit-katyal/customer-survey-form.git
 ```
 
 Alternatively, you can fork this repository and make your own changes.
